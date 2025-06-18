@@ -2,74 +2,51 @@
 
 https://dncgroupbr.notion.site/Desafio-Crie-um-painel-gerencial-automatizado-utilizando-Power-BI-12fb1bb2b5334062a876a613275b4d81
 
-Painel de Performance de Marketing Digital com Power BI
-Este repositório apresenta um dashboard gerencial desenvolvido no Power BI para uma agência de marketing digital. O projeto visa automatizar o acompanhamento de indicadores de desempenho (KPIs), permitindo uma análise estratégica das campanhas e auxiliando na tomada de decisões para atingir metas trimestrais.
+Painel de Performance para Agência de Marketing Digital
+1. Contexto do Projeto
+Uma agência de marketing digital ("Empresa X") precisava de uma solução para monitorar seus principais indicadores de desempenho (KPIs) de forma eficaz, visando atingir uma meta de crescimento trimestral ambiciosa. A necessidade era de uma ferramenta que permitisse avaliar a performance de cada campanha, identificar oportunidades de otimização e suportar a tomada de decisões estratégicas com base em dados.
 
-📝 Sumário
-Contexto de Negócio
-Objetivo do Projeto
-Estrutura do Dashboard
-Insights e Planos de Ação
-Detalhes Técnicos
-Autor
-1. Contexto de Negócio
-Uma agência de marketing digital ("Empresa X") precisava de uma ferramenta analítica para monitorar seus resultados e alcançar uma meta de performance ambiciosa. A ausência de um acompanhamento centralizado dificultava a identificação rápida de oportunidades e gargalos nas campanhas.
+2. Objetivo
+O objetivo deste projeto foi desenvolver um dashboard gerencial no Power BI para analisar os dados de marketing referentes a Março de 2023. O painel foi projetado para ser uma ferramenta central para a equipe de gestão, permitindo uma análise visual e intuitiva dos resultados da agência.
 
-2. Objetivo do Projeto
-O objetivo principal foi criar um painel gerencial automatizado no Power BI para fornecer à equipe de gestão uma visão clara e atualizada dos principais indicadores de marketing do mês de Março de 2023. A ferramenta deveria permitir:
+3. Estrutura do Dashboard e Análises
+O painel foi estruturado em duas páginas para uma melhor organização das informações, com um filtro de data focado no período de 1 a 31 de Março de 2023. As análises foram divididas da seguinte forma:
 
-Avaliar o desempenho financeiro e de engajamento das campanhas.
-Identificar os canais de aquisição e os perfis de público mais valiosos.
-Basear a escolha de planos de ação em dados concretos.
-3. Estrutura do Dashboard
-O painel foi organizado para apresentar as informações de forma lógica e intuitiva, com um filtro de data que permite a análise do período completo de 1 a 31 de Março de 2023. As visualizações foram distribuídas em duas páginas para garantir clareza.
+Indicadores Principais (KPIs)
+Uma visão geral e direta dos números mais importantes, apresentados em cartões de destaque:
 
-KPIs Principais (Cartões)
-Visão geral dos indicadores mais importantes para um diagnóstico rápido da saúde do negócio.
+Receita Total: Valor total de receita gerado no período.
+Receita Média por Compra: A soma da receita média por transação.
+Total de Compradores: O número total de clientes únicos.
+Visualizações na Página: O total de visualizações registradas.
 
-Receita Total: Valor total faturado no período.
-Receita Média por Compra: Valor médio de cada transação realizada.
-Total de Compradores: Número total de clientes únicos que realizaram uma compra.
-Total de Visualizações: Quantidade total de visualizações nas páginas.
+Análise de Público e Plataforma
+Gráficos de pizza foram utilizados para entender a composição do público:
 
+Usuários Ativos por Gênero: Distribuição dos usuários ativos entre os diferentes gêneros.
+Usuários Ativos por Plataforma: Segmentação dos usuários por tipo de plataforma (ex: Mobile, Desktop).
 
-Análise de Público
-Gráficos para segmentar e entender o perfil dos usuários ativos.
+Análise de Aquisição e Origem
+Gráficos de barras para detalhar a origem dos clientes e sua distribuição geográfica:
 
-Usuários por Gênero (Gráfico de Pizza): Distribuição percentual do público entre os gêneros masculino e feminino.
-Usuários por Plataforma (Gráfico de Pizza): Mostra como os usuários se dividem entre as plataformas (ex: Mobile, Desktop).
-Usuários por Cidade (Gráfico de Barras): Ranking das cidades com maior concentração de usuários.
+Número de Compradores por Origem: Quantidade de compradores segmentada por canal de aquisição (ex: Mídia Social, Busca Orgânica, etc.).
+Número de Usuários por Cidade: Ranking das cidades com maior número de usuários.
 
 
-Análise de Aquisição e Comportamento
-Visualizações focadas em entender a origem dos clientes e seu comportamento ao longo do tempo.
+Análise de Tendências Temporais
+Gráficos de linha para acompanhar a evolução de métricas importantes ao longo do tempo:
 
-Compradores por Origem (Gráfico de Barras): Detalha a quantidade de compradores por cada canal de marketing (ex: busca orgânica, social media, email).
-Compradores por Dia (Gráfico de Linhas): Evolução diária do número de compradores, permitindo identificar picos e tendências.
-Taxa de Visualização por Dia (Gráfico de Linhas): Acompanha a variação da porcentagem de visualizações em relação aos usuários ativos, um indicador chave de engajamento.
+Número de Compradores por Data: Variação diária do número de compradores durante o mês.
+Percentual de Visualização por Data: Acompanhamento da taxa de engajamento diária, calculada a partir de uma coluna personalizada (% de visualização = visualizações / usuários ativos).
 
 
-4. Insights e Planos de Ação
-A análise integrada do dashboard permite gerar insights estratégicos para a agência:
-
-Otimização de Canais:
-
-Insight: Ao cruzar o gráfico de Compradores por Origem com os dados de Receita Total, é possível identificar quais canais não só trazem mais clientes, mas também geram maior receita.
-Plano de Ação: Realocar o orçamento de marketing para os canais com maior Retorno sobre o Investimento (ROI). Se um canal tem muitos compradores mas baixa receita média, criar campanhas de upsell específicas para esse público.
-Foco Geográfico e de Plataforma:
-
-Insight: A análise de Usuários por Cidade e Usuários por Plataforma pode revelar que a maioria dos clientes se concentra em uma cidade específica e acessa via mobile.
-Plano de Ação: Priorizar a otimização de campanhas e sites para a experiência mobile (Mobile First). Criar campanhas de marketing geolocalizadas para as cidades de maior performance.
-Análise de Sazonalidade:
-
-Insight: O gráfico de Compradores por Dia pode mostrar picos de vendas recorrentes em determinados dias da semana (ex: fins de semana).
-Plano de Ação: Concentrar os esforços de marketing, como o envio de e-mails e a veiculação de anúncios pagos, nos dias de maior probabilidade de conversão para maximizar os resultados.
-5. Detalhes Técnicos
-Ferramenta de BI: Microsoft Power BI
-Transformação de Dados: Foi criada uma nova coluna calculada utilizando DAX para obter a taxa de visualização, através da fórmula:
-Fragmento do código
-
-% de visualização = DIVIDE([Visualizações], [Usuários totais])
-Este indicador é essencial para medir o nível de engajamento do público com o conteúdo da página.
-6. Autor
+4. Ferramentas e Habilidades
+Ferramenta: Microsoft Power BI
+Habilidades:
+Importação e tratamento de dados.
+Criação de colunas calculadas (DAX).
+Modelagem de dados.
+Desenvolvimento de visualizações de dados (gráficos de cartão, pizza, barras e linhas).
+Criação de dashboards interativos e gerenciais.
+5. Autor
 JONATHAN SALLES QUEIROZ
